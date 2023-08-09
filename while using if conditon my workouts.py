@@ -155,3 +155,31 @@ else:
     else:
         print("count of digits", count)
         print("Addition of of digits", total)
+
+
+# To Find Armstrong Value
+bread = int(input("enter any number "))
+no = bread
+total= 0
+while bread>0:
+    dig = bread%10
+    digpower = dig*dig*dig
+    total = total + digpower
+    bread = bread//10
+else:
+    if total == no:
+        print("Armstrong")
+    else:
+        print("Not Armstrong")
+
+
+# to find binary digits:
+no = 4
+binary " "
+while no>0:
+    rem = no%2
+    binary = str(rem) + binary
+    no= no//2
+else:
+    print(binary)
+
